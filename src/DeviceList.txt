@@ -1,0 +1,8 @@
+lights,off
+door,open
+music,off
+tv,off
+curtain,close
+coffee,off
+microwave,off
+oven,off
