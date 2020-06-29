@@ -1,11 +1,22 @@
 import java.util.ArrayList;
 
-public class temperatureSensor extends Sensor {
-    int activator;
+public class TemperatureSensor implements Sensor {
+    private int activator;
+    private ArrayList<Device> deviceSensorList = new ArrayList<Device>();
+    private String name;
 
-    public temperatureSensor(ArrayList<Device> deviceSensorList, int activator) {
+    public String getName() {
+        return name;
+    }
+
+    public TemperatureSensor(ArrayList<Device> deviceSensorList, int activator, String name) {
         this.deviceSensorList = deviceSensorList;
         this.activator = activator;
+        this.name = name;
+    }
+
+    public ArrayList<Device> getDeviceSensorList() {
+        return deviceSensorList;
     }
 
     @Override

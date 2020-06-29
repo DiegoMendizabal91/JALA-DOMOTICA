@@ -1,9 +1,21 @@
 import java.util.ArrayList;
 
-public class ActionSensor extends Sensor {
+public class ActionSensor implements Sensor {
 
-    public ActionSensor(ArrayList<Device> deviceSensorList) {
+    private ArrayList<Device> deviceSensorList = new ArrayList<Device>();
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public ActionSensor(ArrayList<Device> deviceSensorList, String name) {
+        this.name=name;
         this.deviceSensorList = deviceSensorList;
+    }
+
+    public ArrayList<Device> getDeviceSensorList() {
+        return deviceSensorList;
     }
 
     @Override

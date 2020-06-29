@@ -1,15 +1,13 @@
 import java.util.ArrayList;
 
-public class Sensor {
-    ArrayList<Device> deviceSensorList = new ArrayList<Device>();
+public interface Sensor {
 
-
-    public void turnOnSensor(ArrayList<Device> deviceList){
+    default void turnOnSensor(ArrayList<Device> deviceList){
     }
 
-    public void turnOnSensor(ArrayList<Device> deviceList, int activator){
+    default void turnOnSensor(ArrayList<Device> deviceList, int activator){
     }
 
-    public void turnOnSensor(ArrayList<Device> deviceList, String activator) {
+    default void turnOnSensor(ArrayList<Device> deviceList, String activator) {
     }
 }

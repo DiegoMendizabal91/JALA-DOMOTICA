@@ -3,89 +3,60 @@ import java.util.ArrayList;
 
 public class Main {
 
-    public static void printArray(ArrayList<Device> deviceDataList){
 
-        System.out.println("************ Device General Status ************");
-
-        for (int i=0; i < deviceDataList.size(); i++) {
-            deviceDataList.get(i).printDevice();
-        }
-    }
 
     public static void main(String[] args) {
-        boolean on = true;
-        boolean off = false;
-        boolean close = false;
-        boolean trigger = true;
 
-        // Cargando DATA
-        //Devices
-        Device windows = new OpenCloseDevice("windows", close);
-        Device tv = new OnOffDevice("tv", off);
-        Device radio = new OnOffDevice("radio", off);
-        Device coffeeMaker = new OnOffDevice("coffeeMaker", off);
-        Device microwave = new OnOffDevice("microwave", off);
-        Device PC = new OnOffDevice("PC", off);
-        Device airConditioning = new IntesityDevice("airConditioning", off, 15);
-        Device oven = new IntesityDevice("oven", off, 45);
-        Device lightsKitchen = new IntesityDevice("lightsKitchen", off, 90);
-        Device lightsFrontDoor = new IntesityDevice("lightsFrontDoor", off, 90);
-        Device lightsLivingDoor = new IntesityDevice("lightsLivingDoor", off,90);
-        Device lightsRoom = new IntesityDevice("lightsRoom", off,90);
-        Device curtainsRoom = new OpenCloseDevice("lightsCurtain", close);
+        Simulator simulate = new Simulator();
+        simulate.startSimulation();
 
-        ArrayList<Device> deviceDataList = new ArrayList<Device>();
-        deviceDataList.add(windows);
-        deviceDataList.add(tv);
-        deviceDataList.add(radio);
-        deviceDataList.add(coffeeMaker);
-        deviceDataList.add(microwave);
-        deviceDataList.add(PC);
-        deviceDataList.add(airConditioning);
-        deviceDataList.add(lightsKitchen);
-        deviceDataList.add(oven);
-        deviceDataList.add(lightsFrontDoor);
-        deviceDataList.add(lightsLivingDoor);
-        deviceDataList.add(lightsRoom);
-        deviceDataList.add(curtainsRoom);
-
-
-        //Instructions
-        ArrayList<Device> deviceInstructionList = new ArrayList<Device>();
-        Device lightsFrontDoorI = new IntesityDevice("lightsFrontDoor", on, 75);
-        Device tvI = new OnOffDevice("tv", on);
-        Device lightsLivingDoorI = new IntesityDevice("lightsLivingDoor", on,40);
-
-        deviceInstructionList.add(lightsFrontDoorI);
-        deviceInstructionList.add(tvI);
-        deviceInstructionList.add(lightsLivingDoorI);
-
-
-        Sensor openFrontDoor = new ActionSensor(deviceInstructionList);
-        openFrontDoor.turnOnSensor(deviceDataList);
-
-
-
-        printArray(deviceDataList);
-
-
-
-
-
-
-
-        // A State ---> B notifyState
-        // B notifyState Observa --> State, Observador, y el sujeto(Observable)
-        // notify es observador
-        // device es observado(sujeto)
-//        ArrayList<Device> deviceList = new ArrayList<Device>();
-//        ReadDeviceFile read = new ReadDeviceFile();
-//        deviceList = read.ReadFile();
+//        ReadManager read = new ReadManager();
+//        //Loading Device Data
+//        ArrayList<Device> deviceDataList = new ArrayList<Device>();
+//        deviceDataList = read.ReadDevicesFile();
 //
-//        Sensors frontDoorOpen = new Sensors("lights","on","tv","on");
-//        frontDoorOpen.turnOnSensor(deviceList);
-
-//        deviceList.get(0).changeState("door", "close"); // el disparador
+//        //Loading sensors data
+//        ArrayList<String> lineList = new ArrayList<String>();
+//        ArrayList<Sensor> sensorList = new ArrayList<Sensor>();
+//
+//        lineList=read.ReadSensorsFile();
+//        sensorList=read.setSensorList(lineList);
+//
+//        //Simulator
+//        //I Arrive at house I open the front door
+//        String Action = "frontDoorOpen";
+//        sensorList.get(0).turnOnSensor(deviceDataList, Action);
+//        //lightsEntrance,on,100
+//        //lightsLivingRoom,on,75
+//        //livingRoomTv,on
+//        //airConditioning,on,25
+//        //livingRoomWindow,open
+//        //livingRoomCurtains,open
+//        //I want to dinner, I Manually set the dinner mode
+//        sensorList.get(0).turnOnSensor(deviceDataList);
+//        //lightsLivingRoom,off,75
+//        //lightsKitchen,on,95
+//        //radio,on
+//        //coffeeMaker,on
+//        //livingRoomTv,off
+//        //kitchenWindow,open
+//        //it starts to get hot I turn off the air conditioning
+//        deviceDataList.get(15).changeCondition(false,23);
+//        //I want to watch a movie, I Manually set the cinema mode
+//        sensorList.get(0).turnOnSensor(deviceDataList);
+//        //lightsKitchen,off,95
+//        //radio,off
+//        //livingRoomTv,on
+//        //livingRoomWindow,close
+//        //livingRoomCurtains,close
+//        //It start to get cold, automatically the temperature sensor turns on
+//        sensorList.get(0).turnOnSensor(deviceDataList, 17);
+//
+//
+//
+//        sensorList.get(0).turnOnSensor(deviceDataList, "frontDoorOpen");
+//        sensorList.get(1).turnOnSensor(deviceDataList, "frontDoorOpen2");
+//        utilities.printArray(deviceDataList);
 
     }
 }

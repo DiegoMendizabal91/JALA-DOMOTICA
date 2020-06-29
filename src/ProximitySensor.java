@@ -1,12 +1,23 @@
 import java.util.ArrayList;
 
-public class ProximitySensor extends Sensor {
+public class ProximitySensor implements Sensor {
 
-    String activator;
+    private ArrayList<Device> deviceSensorList = new ArrayList<Device>();
+    private String activator;
+    private String name;
 
-    public ProximitySensor(ArrayList<Device> deviceSensorList, String activator) {
+    public String getName() {
+        return name;
+    }
+
+    public ProximitySensor(ArrayList<Device> deviceSensorList, String activator, String name) {
         this.deviceSensorList = deviceSensorList;
         this.activator = activator;
+        this.name = name;
+    }
+
+    public ArrayList<Device> getDeviceSensorList() {
+        return deviceSensorList;
     }
 
     @Override
