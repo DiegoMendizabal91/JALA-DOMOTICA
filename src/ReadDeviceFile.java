@@ -12,7 +12,7 @@ public class ReadDeviceFile {
 
             while (sc.hasNextLine()) {
                 String line = sc.nextLine();
-                lines.add(new Device(line));
+//                lines.add(new Device(line));
             }
             sc.close();     //closes the scanner
         } catch (FileNotFoundException e) {
