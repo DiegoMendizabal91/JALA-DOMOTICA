@@ -9,7 +9,7 @@ The following points are required:
 - The app is loaded from a configuration file where the information of the
 devices and sessions.
 - Any change in this file will be reflected in the app, for example: Change the status of a
-sensor to notify your subscribed devices.
+sensor to notify your subscribed devices.  
 ##DiagramClass:
 ![Alt text](diagramDomotic.png)
 ##Simulation example:
