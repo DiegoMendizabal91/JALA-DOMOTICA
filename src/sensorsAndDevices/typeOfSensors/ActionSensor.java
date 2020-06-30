@@ -1,4 +1,4 @@
-package sensorsAndDevices.simulation;
+package sensorsAndDevices.typeOfSensors;
 
 import sensorsAndDevices.Device;
 import sensorsAndDevices.Sensor;

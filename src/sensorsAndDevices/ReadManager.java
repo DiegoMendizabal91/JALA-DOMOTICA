@@ -15,7 +15,7 @@ public class ReadManager {
         ArrayList<Device> deviceList = new ArrayList<Device>();
         try {
             //the file to be opened for reading
-            FileInputStream fis = new FileInputStream("F:/JALA/Domotica/JALA-DOMOTICA/src/resources/DeviceList.txt");
+            FileInputStream fis = new FileInputStream("src/resources/DeviceList.txt");
             Scanner sc = new Scanner(fis);    //file to be scanned
             //returns true if there is another line to read
 
@@ -35,7 +35,7 @@ public class ReadManager {
         ArrayList<String> lineList = new ArrayList<String>();
         try {
             //the file to be opened for reading
-            FileInputStream fis = new FileInputStream("F:/JALA/Domotica/JALA-DOMOTICA/src/resources/SensorList.txt");
+            FileInputStream fis = new FileInputStream("src/resources/SensorList.txt");
             Scanner sc = new Scanner(fis);    //file to be scanned
             //returns true if there is another line to read
             while (sc.hasNextLine()) {

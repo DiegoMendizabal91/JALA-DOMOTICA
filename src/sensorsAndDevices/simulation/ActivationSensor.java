@@ -1,8 +1,10 @@
-package sensorsAndDevices.typeOfSensors;
+package sensorsAndDevices.simulation;
 
-import sensorsAndDevices.simulation.ActionSensor;
+import sensorsAndDevices.typeOfSensors.ActionSensor;
 import sensorsAndDevices.Device;
 import sensorsAndDevices.Sensor;
+import sensorsAndDevices.typeOfSensors.ProximitySensor;
+import sensorsAndDevices.typeOfSensors.TemperatureSensor;
 
 import java.util.ArrayList;
 

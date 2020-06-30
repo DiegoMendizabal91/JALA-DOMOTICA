@@ -3,7 +3,6 @@ package sensorsAndDevices.simulation;
 import sensorsAndDevices.Device;
 import sensorsAndDevices.ReadManager;
 import sensorsAndDevices.Sensor;
-import sensorsAndDevices.typeOfSensors.ActivationSensor;
 import utilities.utilities;
 
 import java.util.ArrayList;

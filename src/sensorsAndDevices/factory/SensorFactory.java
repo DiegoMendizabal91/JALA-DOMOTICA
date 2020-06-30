@@ -3,7 +3,7 @@ package sensorsAndDevices.factory;
 import sensorsAndDevices.Device;
 import sensorsAndDevices.typeOfSensors.ProximitySensor;
 import sensorsAndDevices.Sensor;
-import sensorsAndDevices.simulation.ActionSensor;
+import sensorsAndDevices.typeOfSensors.ActionSensor;
 import sensorsAndDevices.typeOfSensors.TemperatureSensor;
 
 import java.util.ArrayList;
