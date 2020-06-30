@@ -1,8 +1,8 @@
 # JALA-DOMOTICA
-##Objectives: 
+## Objectives: 
 - Application of knowledge about program object oriented.
 - Make an application to manage smart house devices and sensors.
-##Description:
+## Description:
 The smart home is composed of electronic devices and sensors, where the devices of the
 housing react according to the signals sent by the sensors.
 The following points are required:
@@ -10,12 +10,12 @@ The following points are required:
 devices and sessions.
 - Any change in this file will be reflected in the app, for example: Change the status of a
 sensor to notify your subscribed devices.  
-##DiagramClass:
+## DiagramClass:
 ![Alt text](diagramDomotic.png)
-##Simulation example:
+## Simulation example:
 I Arrive at house I open the front door  
 Front door open sensor activation  
-#####Devices to active:
+##### Devices to active:
 lightsLivingRoom,on,75  
 livingRoomTv,on  
 airConditioning,on,25  
@@ -24,7 +24,7 @@ livingRoomCurtains,open
   
 I want to dinner, I Manually set the dinner mode  
 Mode dinner activates
-#####Devices to active:
+##### Devices to active:
 lightsLivingRoom,off,75  
 lightsKitchen,on,95  
 radio,on  
@@ -38,7 +38,7 @@ deactivate - "airConditioning",deviceDataList,false,17
 
 I want to watch a movie, I Manually set the cinema mode
 Mode cinema activates:
-#####Devices to active:
+##### Devices to active:
 lightsKitchen,off,95
 radio,off
 livingRoomTv,on
