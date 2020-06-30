@@ -1,7 +1,5 @@
 package sensorsAndDevices;
 
-import sensorsAndDevices.Device;
-
 import java.util.ArrayList;
 
 public interface Sensor {

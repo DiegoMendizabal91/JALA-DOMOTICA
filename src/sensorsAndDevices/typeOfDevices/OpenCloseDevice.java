@@ -16,7 +16,7 @@ public class OpenCloseDevice extends Device {
         // Change device state
 
         setCondition(condition);
-        sendNotify(this);
+        sendNotify();
     }
 
     @Override

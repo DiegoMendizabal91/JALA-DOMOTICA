@@ -14,7 +14,7 @@ public class OnOffDevice extends Device {
     public void changeCondition(boolean condition) {
         // Change device state
         setCondition(condition);
-        sendNotify(this);
+        sendNotify();
     }
 
     @Override

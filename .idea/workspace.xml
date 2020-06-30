@@ -2,16 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5aa1042e-d41e-4112-89d1-9f6217100583" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/sensorsAndDevices/DeviceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/sensorsAndDevices/ReadManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/sensorsAndDevices/factory/DeviceFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/sensorsAndDevices/factory/SensorFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/sensorsAndDevices/simulation/ActivationSensorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/sensorsAndDevices/typeOfDevices/IntesityDeviceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/sensorsAndDevices/typeOfDevices/OnOffDeviceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/sensorsAndDevices/typeOfDevices/OpenCloseDeviceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/sensorsAndDevices/typeOfSensors/ActionSensorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/sensorsAndDevices/typeOfSensors/ProximitySensorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/sensorsAndDevices/typeOfSensors/TemperatureSensorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JALA-DOMOTICA/sensorsAndDevices/factory/SensorFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JALA-DOMOTICA/sensorsAndDevices/factory/SensorFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JALA-DOMOTICA/sensorsAndDevices/simulation/ActionSensor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JALA-DOMOTICA/sensorsAndDevices/simulation/Simulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JALA-DOMOTICA/sensorsAndDevices/simulation/Simulator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JALA-DOMOTICA/sensorsAndDevices/typeOfSensors/ActivationSensor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sensorsAndDevices/factory/SensorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sensorsAndDevices/factory/SensorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sensorsAndDevices/simulation/ActionSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sensorsAndDevices/typeOfSensors/ActionSensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sensorsAndDevices/simulation/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sensorsAndDevices/simulation/Simulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sensorsAndDevices/typeOfSensors/ActivationSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sensorsAndDevices/simulation/ActivationSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JALA-DOMOTICA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JALA-DOMOTICA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JALA-DOMOTICA/sensorsAndDevices/Device.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JALA-DOMOTICA/sensorsAndDevices/Device.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JALA-DOMOTICA/sensorsAndDevices/Sensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JALA-DOMOTICA/sensorsAndDevices/Sensor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JALA-DOMOTICA/sensorsAndDevices/notify/Observable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JALA-DOMOTICA/sensorsAndDevices/notify/Observable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JALA-DOMOTICA/sensorsAndDevices/typeOfDevices/IntesityDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JALA-DOMOTICA/sensorsAndDevices/typeOfDevices/IntesityDevice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JALA-DOMOTICA/sensorsAndDevices/typeOfDevices/OnOffDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JALA-DOMOTICA/sensorsAndDevices/typeOfDevices/OnOffDevice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JALA-DOMOTICA/sensorsAndDevices/typeOfDevices/OpenCloseDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JALA-DOMOTICA/sensorsAndDevices/typeOfDevices/OpenCloseDevice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sensorsAndDevices/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sensorsAndDevices/Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sensorsAndDevices/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sensorsAndDevices/Sensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sensorsAndDevices/notify/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sensorsAndDevices/notify/Observable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sensorsAndDevices/typeOfDevices/IntesityDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sensorsAndDevices/typeOfDevices/IntesityDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sensorsAndDevices/typeOfDevices/OnOffDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sensorsAndDevices/typeOfDevices/OnOffDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sensorsAndDevices/typeOfDevices/OpenCloseDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sensorsAndDevices/typeOfDevices/OpenCloseDevice.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,48 +35,58 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/JALA_DOMOTICA$sensorsAndDevices_in_JALA_DOMOTICA.ic" NAME="sensorsAndDevices in JALA-DOMOTICA Coverage Results" MODIFIED="1593542088466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sensorsAndDevices.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JALA_DOMOTICA$All_in_JALA_DOMOTICA.ic" NAME="All in JALA-DOMOTICA Coverage Results" MODIFIED="1593547757482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="358" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-793233422">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="9494" />
+          <entry key="java" value="10795" />
           <entry key="md" value="453" />
           <entry key="txt" value="664" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9494" />
+          <entry key="JAVA" value="10795" />
           <entry key="Markdown" value="453" />
           <entry key="PLAIN_TEXT" value="666" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="156" />
+          <entry key="java" value="198" />
           <entry key="md" value="2" />
           <entry key="puml" value="1" />
-          <entry key="txt" value="11" />
+          <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="156" />
+          <entry key="JAVA" value="198" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="PLAIN_TEXT" value="17" />
           <entry key="PlantUML file" value="1" />
         </counts>
       </usages-collector>
@@ -70,10 +95,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/typeOfSensors/ActionSensor.java">
+        <entry file="file://$PROJECT_DIR$/test/sensorsAndDevices/ReadManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="253">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+              <folding>
+                <element signature="e#547#555#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/simulation/ActivationSensor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,91 +119,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="221">
-                <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/Device.java">
+        <entry file="file://$PROJECT_DIR$/test/sensorsAndDevices/simulation/ActivationSensorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/notify/Observer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/notify/Notify.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="391">
+              <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#529#537#0" expanded="true" />
+                <element signature="e#1110#1118#0" expanded="true" />
+                <element signature="e#1691#1699#0" expanded="true" />
+                <element signature="e#2275#2283#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/typeOfSensors/ProximitySensor.java">
+        <entry file="file://$PROJECT_DIR$/src/resources/SensorList.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="38" column="100" selection-start-line="38" selection-start-column="100" selection-end-line="38" selection-end-column="100" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/ReadManager.java">
+        <entry file="file://$PROJECT_DIR$/src/resources/DeviceList.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="769">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/notify/Observable.java">
+        <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/simulation/Simulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/typeOfSensors/TemperatureSensor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/factory/DeviceFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="290">
+              <caret line="44" column="87" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,6 +171,7 @@
         <option value="Interface" />
         <option value="UML Sequence" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -197,22 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ObserverPatternExample.java" />
-        <option value="$PROJECT_DIR$/src/Notification.java" />
-        <option value="$PROJECT_DIR$/src/State.java" />
-        <option value="$PROJECT_DIR$/src/onOffDevice.java" />
-        <option value="$PROJECT_DIR$/src/Observer.java" />
-        <option value="$PROJECT_DIR$/src/Observable.java" />
-        <option value="$PROJECT_DIR$/src/ReadDeviceFile.java" />
-        <option value="$PROJECT_DIR$/src/Sensors.java" />
-        <option value="$PROJECT_DIR$/src/IntesityDevices.java" />
-        <option value="$PROJECT_DIR$/src/Notify.java" />
-        <option value="$PROJECT_DIR$/src/OpenCloseDevice.java" />
-        <option value="$PROJECT_DIR$/src/OnOffDevice.java" />
-        <option value="$PROJECT_DIR$/src/IntesityDevice.java" />
-        <option value="$PROJECT_DIR$/src/Device.java" />
-        <option value="$PROJECT_DIR$/src/temperatureSensor.java" />
-        <option value="$PROJECT_DIR$/src/deviceFactory.java" />
         <option value="$PROJECT_DIR$/src/DeviceFactory.java" />
         <option value="$PROJECT_DIR$/src/DeviceList.txt" />
         <option value="$PROJECT_DIR$/src/Sensor.java" />
@@ -231,7 +205,6 @@
         <option value="$PROJECT_DIR$/src/Sensors/ActionSensor.java" />
         <option value="$PROJECT_DIR$/src/ReadManager.java" />
         <option value="$PROJECT_DIR$/src/utilities/utilities.java" />
-        <option value="$PROJECT_DIR$/src/sensorsAndDevices/ReadManager.java" />
         <option value="$PROJECT_DIR$/src/sensorsAndDevices/OpenCloseDevice.java" />
         <option value="$PROJECT_DIR$/src/sensorsAndDevices/Simulator.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
@@ -240,14 +213,31 @@
         <option value="$PROJECT_DIR$/src/sensorsAndDevices/ProximitySensor.java" />
         <option value="$PROJECT_DIR$/src/sensorsAndDevices/TemperatureSensor.java" />
         <option value="$PROJECT_DIR$/src/sensorsAndDevices/Notify.java" />
-        <option value="$PROJECT_DIR$/src/sensorsAndDevices/typeOfDevices/OpenCloseDevice.java" />
         <option value="$PROJECT_DIR$/src/sensorsAndDevices/typeOfSensors/ActivationSensor.java" />
         <option value="$PROJECT_DIR$/src/sensorsAndDevices/typeOfSensors/ActionSensor.java" />
         <option value="$PROJECT_DIR$/src/sensorsAndDevices/typeOfSensors/TemperatureSensor.java" />
         <option value="$PROJECT_DIR$/src/sensorsAndDevices/factory/SensorFactory.java" />
         <option value="$PROJECT_DIR$/src/sensorsAndDevices/typeOfSensors/ProximitySensor.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/sensorsAndDevices/simulation/ActivationSensor.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/sensorsAndDevices/ReadManager.java" />
+        <option value="$PROJECT_DIR$/src/sensorsAndDevices/Device.java" />
+        <option value="$PROJECT_DIR$/src/sensorsAndDevices/typeOfDevices/IntesityDevice.java" />
+        <option value="$PROJECT_DIR$/src/sensorsAndDevices/notify/Observable.java" />
+        <option value="$PROJECT_DIR$/src/sensorsAndDevices/typeOfDevices/OnOffDevice.java" />
+        <option value="$PROJECT_DIR$/src/sensorsAndDevices/typeOfDevices/OpenCloseDevice.java" />
+        <option value="$PROJECT_DIR$/test/sensorsAndDevices/DeviceTest.java" />
+        <option value="$PROJECT_DIR$/test/sensorsAndDevices/typeOfDevices/IntesityDeviceTest.java" />
+        <option value="$PROJECT_DIR$/test/sensorsAndDevices/typeOfDevices/OnOffDeviceTest.java" />
+        <option value="$PROJECT_DIR$/test/sensorsAndDevices/typeOfDevices/OpenCloseDeviceTest.java" />
+        <option value="$PROJECT_DIR$/test/sensorsAndDevices/typeOfSensors/ActionSensorTest.java" />
+        <option value="$PROJECT_DIR$/test/sensorsAndDevices/typeOfSensors/ProximitySensorTest.java" />
+        <option value="$PROJECT_DIR$/test/sensorsAndDevices/typeOfSensors/TemperatureSensorTest.java" />
+        <option value="$PROJECT_DIR$/test/sensorsAndDevices/factory/DeviceFactoryTest.java" />
+        <option value="$PROJECT_DIR$/test/sensorsAndDevices/factory/SensorFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/sensorsAndDevices/Sensor.java" />
+        <option value="$PROJECT_DIR$/test/sensorsAndDevices/ReadManagerTest.java" />
+        <option value="$PROJECT_DIR$/test/sensorsAndDevices/simulation/ActivationSensorTest.java" />
       </list>
     </option>
   </component>
@@ -263,9 +253,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,19 +313,63 @@
               <item name="sensorsAndDevices" type="462c0819:PsiDirectoryNode" />
               <item name="typeOfSensors" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JALA-DOMOTICA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JALA-DOMOTICA" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JALA-DOMOTICA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JALA-DOMOTICA" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="sensorsAndDevices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JALA-DOMOTICA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JALA-DOMOTICA" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="sensorsAndDevices" type="462c0819:PsiDirectoryNode" />
+              <item name="typeOfDevices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JALA-DOMOTICA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JALA-DOMOTICA" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="sensorsAndDevices" type="462c0819:PsiDirectoryNode" />
+              <item name="typeOfSensors" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593492685174" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593548818358" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="sensorsAndDevices.simulation" />
+      <recent name="sensorsAndDevices" />
+      <recent name="sensorsAndDevices.factory" />
+      <recent name="sensorsAndDevices.typeOfSensors" />
+      <recent name="sensorsAndDevices.typeOfDevices" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\JALA\Domotica\JALA-DOMOTICA" />
+      <recent name="F:\JALA\Domotica\JALA-DOMOTICA\src" />
       <recent name="F:\JALA\Domotica\JALA-DOMOTICA\src\resources" />
     </key>
   </component>
@@ -353,20 +385,93 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.All in JALA-DOMOTICA">
+    <configuration name="ActivationSensorTest.activateSensor1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JALA-DOMOTICA" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sensorsAndDevices.simulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sensorsAndDevices.simulation" />
+      <option name="MAIN_CLASS_NAME" value="sensorsAndDevices.simulation.ActivationSensorTest" />
+      <option name="METHOD_NAME" value="activateSensor1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ActivationSensorTest.activateSensorProximity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JALA-DOMOTICA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sensorsAndDevices.simulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sensorsAndDevices.simulation" />
+      <option name="MAIN_CLASS_NAME" value="sensorsAndDevices.simulation.ActivationSensorTest" />
+      <option name="METHOD_NAME" value="activateSensorProximity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivationSensorTest.activateSensorTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JALA-DOMOTICA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sensorsAndDevices.simulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sensorsAndDevices.simulation" />
+      <option name="MAIN_CLASS_NAME" value="sensorsAndDevices.simulation.ActivationSensorTest" />
+      <option name="METHOD_NAME" value="activateSensorTemperature" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivationSensorTest.changeSingleDevice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JALA-DOMOTICA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sensorsAndDevices.simulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sensorsAndDevices.simulation" />
+      <option name="MAIN_CLASS_NAME" value="sensorsAndDevices.simulation.ActivationSensorTest" />
+      <option name="METHOD_NAME" value="changeSingleDevice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in JALA-DOMOTICA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JALA-DOMOTICA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ActivationSensorTest.activateSensorProximity" />
+      <item itemvalue="JUnit.ActivationSensorTest.activateSensor1" />
+      <item itemvalue="JUnit.ActivationSensorTest.activateSensorTemperature" />
+      <item itemvalue="JUnit.ActivationSensorTest.changeSingleDevice" />
+      <item itemvalue="JUnit.All in JALA-DOMOTICA" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in JALA-DOMOTICA" />
+        <item itemvalue="JUnit.ActivationSensorTest.changeSingleDevice" />
+        <item itemvalue="JUnit.ActivationSensorTest.activateSensorTemperature" />
+        <item itemvalue="JUnit.ActivationSensorTest.activateSensor1" />
+        <item itemvalue="JUnit.ActivationSensorTest.activateSensorProximity" />
       </list>
     </recent_temporary>
   </component>
@@ -383,6 +488,38 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="DeviceFactoryTest_getDeviceIntensity - 2020.06.30 at 15h 58m 57s.xml">
+      <configuration name="DeviceFactoryTest.getDeviceIntensity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SensorFactoryTest_getSensor - 2020.06.30 at 16h 05m 58s.xml">
+      <configuration name="SensorFactoryTest.getSensor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SensorFactoryTest_getActionSensor - 2020.06.30 at 16h 06m 44s.xml">
+      <configuration name="SensorFactoryTest.getActionSensor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_JALA-DOMOTICA - 2020.06.30 at 16h 08m 37s.xml">
+      <configuration name="All in JALA-DOMOTICA" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SensorFactoryTest_getIntensitySensor - 2020.06.30 at 16h 08m 50s.xml">
+      <configuration name="SensorFactoryTest.getIntensitySensor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SensorFactoryTest_getIntensitySensor - 2020.06.30 at 16h 09m 06s.xml">
+      <configuration name="SensorFactoryTest.getIntensitySensor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_JALA-DOMOTICA - 2020.06.30 at 16h 09m 19s.xml">
+      <configuration name="All in JALA-DOMOTICA" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReadManagerTest_readDevicesFile - 2020.06.30 at 16h 11m 46s.xml">
+      <configuration name="ReadManagerTest.readDevicesFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReadManagerTest_readSensorsFile - 2020.06.30 at 16h 15m 08s.xml">
+      <configuration name="ReadManagerTest.readSensorsFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReadManagerTest_setSensorList - 2020.06.30 at 16h 17m 34s.xml">
+      <configuration name="ReadManagerTest.setSensorList" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -393,69 +530,42 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.334595" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23560767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Log Viewer" />
-      <window_info anchor="bottom" id="Anonymous Apex" />
-      <window_info anchor="bottom" id="SOQL Query" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1442623" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39696312" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.03470716" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30802602" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="right" id="PlantUML" order="8" weight="0.39253333" />
-      <window_info anchor="right" x="842" y="176" width="618" height="647" id="simpleUML" order="9" type="WINDOWED" weight="0.3296" />
+      <window_info anchor="bottom" id="Log Viewer" order="11" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="12" />
+      <window_info anchor="bottom" id="SOQL Query" order="13" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="PlantUML" order="9" weight="0.39253333" />
+      <window_info anchor="right" x="842" y="176" width="618" height="647" id="simpleUML" order="10" type="WINDOWED" weight="0.3296" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13113007" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.29826465" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.329718" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -512,9 +622,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ObserverPatternExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/BankExpense.java" />
-    <entry file="file://$PROJECT_DIR$/src/BankAccount.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/Observable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-568">
@@ -556,20 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/DeviceList.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/SensorList.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -580,77 +673,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/typeOfDevices/OpenCloseDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="306">
+            <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/factory/SensorFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/notify/Observable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/Device.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+          <folding>
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/notify/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/sensorsAndDevices/DeviceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/simulation/Simulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/simulation/ActivationSensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/typeOfDevices/IntesityDevice.java">
+    <entry file="file://$PROJECT_DIR$/test/sensorsAndDevices/typeOfDevices/IntesityDeviceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/sensorsAndDevices/typeOfDevices/OpenCloseDeviceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/typeOfDevices/OpenCloseDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/sensorsAndDevices/typeOfDevices/OnOffDeviceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/sensorsAndDevices/typeOfSensors/ActionSensorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#406#414#0" expanded="true" />
+            <element signature="e#785#793#0" expanded="true" />
+            <element signature="e#1160#1168#0" expanded="true" />
+            <element signature="e#1156#1164#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/typeOfDevices/OnOffDevice.java">
+    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/typeOfSensors/ProximitySensor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/Sensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/typeOfSensors/ActionSensor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -659,81 +787,177 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/typeOfSensors/TemperatureSensor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/notify/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/notify/Observer.java">
+    <entry file="file://$PROJECT_DIR$/test/sensorsAndDevices/typeOfSensors/ProximitySensorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/notify/Notify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="457">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#295#303#0" expanded="true" />
+            <element signature="e#674#682#0" expanded="true" />
+            <element signature="e#1054#1062#0" expanded="true" />
+            <element signature="e#1238#1246#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/Device.java">
+    <entry file="file://$PROJECT_DIR$/test/sensorsAndDevices/typeOfSensors/TemperatureSensorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="629">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <folding>
+            <element signature="e#297#305#0" expanded="true" />
+            <element signature="e#699#707#0" expanded="true" />
+            <element signature="e#1102#1110#0" expanded="true" />
+            <element signature="e#1286#1294#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/factory/DeviceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="-87">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/typeOfSensors/ProximitySensor.java">
+    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/typeOfDevices/IntesityDevice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="38" column="100" selection-start-line="38" selection-start-column="100" selection-end-line="38" selection-end-column="100" />
+        <state relative-caret-position="34">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/sensorsAndDevices/factory/DeviceFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/ReadManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="66">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="221">
-            <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/Sensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/notify/Notify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/typeOfDevices/OnOffDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/factory/SensorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/sensorsAndDevices/factory/SensorFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="43" column="82" lean-forward="true" selection-start-line="43" selection-start-column="82" selection-end-line="43" selection-end-column="82" />
+          <folding>
+            <element signature="e#439#447#0" expanded="true" />
+            <element signature="e#397#405#0" expanded="true" />
+            <element signature="e#1385#1393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/sensorsAndDevices/ReadManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="e#547#555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/simulation/ActivationSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sensorsAndDevices/simulation/Simulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="44" column="87" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/SensorList.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/DeviceList.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/sensorsAndDevices/simulation/ActivationSensorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding>
+            <element signature="e#529#537#0" expanded="true" />
+            <element signature="e#1110#1118#0" expanded="true" />
+            <element signature="e#1691#1699#0" expanded="true" />
+            <element signature="e#2275#2283#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

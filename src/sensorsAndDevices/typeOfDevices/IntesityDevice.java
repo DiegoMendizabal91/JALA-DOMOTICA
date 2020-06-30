@@ -27,7 +27,7 @@ public class IntesityDevice extends Device {
         // Change device state
         setCondition(condition);
         setIntensity(intensity);
-        sendNotify(this);
+        sendNotify();
     }
 
     @Override

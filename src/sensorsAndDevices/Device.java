@@ -12,14 +12,15 @@ public class Device implements Observable {
     protected String name;
     protected boolean condition;
 
+    public ArrayList<Observer> getObservers() {
+        return observers;
+    }
 
     public void setName(String name){
-
         this.name = name;
     }
 
     public String getName(){
-
         return this.name;
     }
 
@@ -36,10 +37,9 @@ public class Device implements Observable {
     }
 
     @Override
-    public void sendNotify(Device device) {
-
+    public void sendNotify() {
         for(Observer observer:observers){
-            observer.update(device);
+            observer.update(this);
         }
     }
 
